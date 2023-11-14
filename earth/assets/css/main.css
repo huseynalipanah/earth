@@ -1,0 +1,91 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+img {
+  object-fit: cover;
+  max-width: 100%;
+}
+
+nav {
+  max-width: 100%;
+  min-height: 800px;
+  background-image: url(https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/10/Banner.jpg);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+}
+nav .navbar {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+nav .navbar .logo {
+  width: 200px;
+  height: 35px;
+}
+nav .navbar .navitem {
+  position: relative;
+}
+nav .navbar .navitem ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+}
+nav .navbar .navitem ul li a {
+  font-size: 18px;
+  color: black;
+}
+nav .navbar .navitem ul li a i {
+  font-size: 30px;
+}
+nav .start {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 150px;
+  font-family: "Jost", sans-serif;
+}
+nav .start h1 {
+  color: #2c541d;
+  font-size: 80px;
+  letter-spacing: 10px;
+}
+nav .start h2 {
+  font-size: 40px;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 6.3px;
+}
+nav .start button {
+  border: 0px;
+  background-color: #74a84a;
+  font-size: 16px;
+  color: white;
+  width: 200px;
+  height: 50px;
+  letter-spacing: 5px;
+  margin-top: 20px;
+}
+
+header .cards {
+  position: relative;
+  top: 100px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  gap: 30px;
+}
+header .cards .card {
+  max-width: 350px;
+}
+header .cards .card .cname {
+  color: #585858;
+}/*# sourceMappingURL=main.css.map */

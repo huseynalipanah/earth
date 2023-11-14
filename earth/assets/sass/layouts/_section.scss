@@ -1,0 +1,21 @@
+header {
+  .cards {
+position: relative;
+top: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 30px;
+
+    .card {
+      max-width: 350px;
+
+      img {
+
+      }
+    .cname{
+color: #585858;
+    }
+    }
+  }
+}
