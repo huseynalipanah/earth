@@ -1,21 +1,90 @@
 header {
-  .cards {
-position: relative;
-top: 100px;
-    display: grid;
-    grid-template-columns: auto auto auto;
+  .crd {
+    max-width: 100%;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    gap: 30px;
+    margin-top: 80px;
 
-    .card {
-      max-width: 350px;
+    .cards {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      justify-content: center;
+      gap: 20px;
 
-      img {
+      .card {
+        max-width: 350px;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
 
+        .cname {
+          color: #585858;
+          font-family: 'Roboto', sans-serif;
+          font-size: 14.45px;
+        }
+
+        .name {
+          font-family: 'Jost', sans-serif;
+          font-weight: bold;
+          font-size: 17px;
+        }
+
+        .price {
+          font-family: 'Roboto', sans-serif;
+          font-size: 16px;
+          color: #585858;
+          font-weight: 700;
+        }
       }
-    .cname{
-color: #585858;
     }
+  }
+
+  hr {
+    border-top: 1px solid #a1a1a180;
+  }
+
+  .cstrs {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+   
+     
+        h1{
+        font-family: 'Jost', sans-serif;
+      }
+      
+    
+    .customers {
+      max-width: 100%;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      justify-content: center;
+      gap: 20px;
+
+      .cst1 {
+        font-family: 'Roboto', sans-serif;
+        width: 300px;
+        height: 250px;
+
+        i {
+          color: #2c541d;
+          font-size: 30px;
+        }
+
+        .write {
+          color: #585858;
+          font-size: 17px;
+          font-weight: 400;
+        }
+
+        img {
+          border-radius: 50%;
+        }
+      }
     }
+
   }
 }

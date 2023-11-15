@@ -75,17 +75,75 @@ nav .start button {
   margin-top: 20px;
 }
 
-header .cards {
-  position: relative;
-  top: 100px;
+header .crd {
+  max-width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+header .crd .cards {
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
 }
-header .cards .card {
+header .crd .cards .card {
   max-width: 350px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
-header .cards .card .cname {
+header .crd .cards .card .cname {
   color: #585858;
+  font-family: "Roboto", sans-serif;
+  font-size: 14.45px;
+}
+header .crd .cards .card .name {
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+header .crd .cards .card .price {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #585858;
+  font-weight: 700;
+}
+header hr {
+  border-top: 1px solid rgba(161, 161, 161, 0.5019607843);
+}
+header .cstrs {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+header .cstrs h1 {
+  font-family: "Jost", sans-serif;
+}
+header .cstrs .customers {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  gap: 20px;
+}
+header .cstrs .customers .cst1 {
+  font-family: "Roboto", sans-serif;
+  width: 300px;
+  height: 250px;
+}
+header .cstrs .customers .cst1 i {
+  color: #2c541d;
+  font-size: 30px;
+}
+header .cstrs .customers .cst1 .write {
+  color: #585858;
+  font-size: 17px;
+  font-weight: 400;
+}
+header .cstrs .customers .cst1 img {
+  border-radius: 50%;
 }/*# sourceMappingURL=main.css.map */
