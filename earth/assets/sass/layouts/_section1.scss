@@ -1,0 +1,116 @@
+header {
+  .crd {
+    max-width: 100%;
+    min-height: 640px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+
+
+    .cards {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      justify-content: center;
+      gap: 20px;
+
+      .card {
+        max-width: 350px;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .cname {
+          color: #585858;
+          font-family: 'Roboto', sans-serif;
+          font-size: 14.45px;
+        }
+
+        .name {
+          font-family: 'Jost', sans-serif;
+          font-weight: bold;
+          font-size: 17px;
+        }
+
+        .price {
+          font-family: 'Roboto', sans-serif;
+          font-size: 16px;
+          color: #585858;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+
+  hr {
+    border-top: 1px solid #a1a1a180;
+  }
+
+  .cstrs {
+    max-width: 100%;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+
+
+
+    .hdtxt {
+      h1 {
+        font-family: 'Jost', sans-serif;
+        font-size: 41px;
+      }
+
+      display: flex;
+      justify-content: flex-start;
+      width: 1020px;
+      margin-bottom: 40px;
+    }
+
+    .customers {
+      max-width: 100%;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      justify-content: center;
+      gap: 30px;
+
+      .cst {
+        font-family: 'Roboto', sans-serif;
+        width: 300px;
+        height: 250px;
+        margin-right: 20px;
+        
+
+        i {
+          color: #2c541d;
+          font-size: 30px;
+          margin-bottom:20px ;
+        }
+
+        .write {
+          color: #585858;
+          font-size: 17px;
+          font-weight: 400;
+          margin-bottom:20px ;
+        }
+
+        img {
+          border-radius: 50%;
+          margin-bottom:20px ;
+        }
+
+        .name {
+          color: var(--e-global-color-astglobalcolor0);
+          font-size: 12px;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+        }
+      }
+    }
+
+  }
+}
